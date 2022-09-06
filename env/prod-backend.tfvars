@@ -1,3 +1,3 @@
 bucket = "terraform-kvbucket"
-key    = "terraform/mutable/prod/terraform.tfstate"
+key    = "terraform/immutable/prod/terraform.tfstate"
 region = "us-east-1"
