@@ -203,7 +203,7 @@ module "SHIPPING" {
   PRIVATE_LISTENER_ARN  = module.LB.PRIVATE_LISTENER_ARN
   MYSQL_ENDPOINT        = module.RDS.MYSQL_ENDPOINT
   PROMETHEUS_IP         = var.PROMETHEUS_IP
-  APP_VERSION           = "4.3.2"
+  APP_VERSION           = "4.3.6"
 }
 
 
