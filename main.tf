@@ -179,7 +179,7 @@ module "USER" {
   DOCDB_ENDPOINT        = module.DOCDB.DOCDB_ENDPOINT
   REDIS_ENDPOINT        = module.ELASTICACHE.REDIS_ENDPOINT
   PROMETHEUS_IP         = var.PROMETHEUS_IP
-  APP_VERSION           = "4.1.1"
+  APP_VERSION           = "4.1.2"
 }
 
 module "SHIPPING" {
