@@ -3,7 +3,6 @@ PROJECT = "roboshop"
 WORKSTATION_IP = "172.31.11.178/32"
 PROMETHEUS_IP = "172.31.7.1/32"
 
-
 //VPC
 
 VPC_CIDR = "10.100.0.0/16"
@@ -72,15 +71,15 @@ INSTANCE_COUNT = {
     INSTANCE_TYPE = "t3.micro"
   }
   SHIPPING = {
-    DESIRED = 1
+    DESIRED = 2
     MAX     = 5
-    MIN     = 1
+    MIN     = 2
     INSTANCE_TYPE = "t3.medium"
   }
   PAYMENT = {
-    DESIRED = 1
+    DESIRED = 2
     MAX     = 5
-    MIN     = 1
+    MIN     = 2
     INSTANCE_TYPE = "t3.micro"
   }
 }
